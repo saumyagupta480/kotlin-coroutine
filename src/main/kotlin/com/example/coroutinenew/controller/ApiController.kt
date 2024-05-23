@@ -24,9 +24,4 @@ class ApiController(private val apiService: ApiService) {
     fun checkUp(): String {
         return "Success"
     }
-
-    @GetMapping("/status")
-    fun checkStatus(): Boolean {
-        return true
-    }
 }
