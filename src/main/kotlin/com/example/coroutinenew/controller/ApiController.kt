@@ -19,9 +19,4 @@ class ApiController(private val apiService: ApiService) {
     fun sayHello(): String {
         return "Up"
     }
-
-    @GetMapping("/monitor")
-    fun checkUp(): String {
-        return "Success"
-    }
 }
